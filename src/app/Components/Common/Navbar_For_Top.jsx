@@ -33,7 +33,7 @@ export default function Navbar_For_Top() {
           <div className="navbar-start">
             <Link href="/">
               <Image
-                src="/images/logo.png"
+                src="/public/images/logo.png"
                 height={100}
                 width={300}
                 alt=""

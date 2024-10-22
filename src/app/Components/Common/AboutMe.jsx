@@ -167,7 +167,7 @@ export default function AboutMe() {
                   .map((_, index) => (
                     <Image
                       key={index}
-                      src="/images/no_clients.png"
+                      src="/public/Images/no_clients.png"
                       alt="Client logo for Qrinux"
                       className="mx-5 rounded-lg"
                       width="100"

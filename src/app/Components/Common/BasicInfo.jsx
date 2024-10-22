@@ -83,7 +83,7 @@ export default function BasicInfo() {
         <div className="bg-white mt-40 rounded-lg px-6 shadow-lg w-full lg:w-auto md:w-[90vw]">
           <div className="relative">
             <Image
-              src="/images/Abdullah_al_mahfuz.png"
+              src="public/images/Abdullah_al_mahfuz.png"
               alt="Abdullah Al Mahfuz - Best Web Developer in Moulvibazar"
               className="w-full md:w-96 lg:w-80 mx-auto object-cover rounded-lg -mt-40  shadow-2xl"
               width={500}
