@@ -61,7 +61,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="en" data-theme="mytheme">
       <body className={`${robotoSlab.className} ${poppins.className}`}>
       <div className="container mx-auto max-w-screen-xl md:px-4 px-2">
           <Navbar_For_Top/>

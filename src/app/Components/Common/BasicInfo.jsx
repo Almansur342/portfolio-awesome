@@ -111,34 +111,34 @@ export default function BasicInfo() {
             <div className="flex justify-center space-x-4 my-4">
               <a
                 href="https://github.com/almahfuz2019"
-                className="text-[#000000] bg-secondary p-2 rounded-lg transition duration-300 ease-in-out hover:text-white hover:bg-primary transform hover:scale-110"
+                className="text-[#000000] bg-secondary p-2 rounded-lg transition duration-300 ease-in-out hover:text-white hover:bg-[#1b74e4] transform hover:scale-110"
               >
                 <FaGithub className="text-xl leading-[20px]" />
               </a>
               <a
                 href="https://www.facebook.com/profile.php?id=61556525311435"
-                className="text-[#1773EA] bg-secondary p-2 rounded-lg transition duration-300 ease-in-out hover:text-white hover:bg-primary transform hover:scale-110"
+                className="text-[#1773EA] bg-secondary p-2 rounded-lg transition duration-300 ease-in-out hover:text-white hover:bg-[#1b74e4] transform hover:scale-110"
               >
                 <FaFacebookF className="text-xl leading-[20px]" />
               </a>
 
               <a
                 href="https://wa.me/+8801787878743"
-                className="text-[#00da78] bg-secondary p-2 rounded-lg transition duration-300 ease-in-out hover:text-white hover:bg-primary transform hover:scale-110"
+                className="text-[#00da78] bg-secondary p-2 rounded-lg transition duration-300 ease-in-out hover:text-white hover:bg-[#1b74e4] transform hover:scale-110"
               >
                 <FaWhatsapp className="text-xl leading-[20px]" />
               </a>
 
               <a
                 href="https://www.linkedin.com/in/abdullah-al-mahfuz-a852d/"
-                className="text-[#144679] bg-secondary p-2 rounded-lg transition duration-300 ease-in-out hover:text-white hover:bg-primary transform hover:scale-110"
+                className="text-[#144679] bg-secondary p-2 rounded-lg transition duration-300 ease-in-out hover:text-white hover:bg-[#1b74e4] transform hover:scale-110"
               >
                 <FaLinkedinIn className="text-xl leading-[20px]" />
               </a>
             </div>
 
             <div className="space-y-3 mt-8 bg-secondary p-6 rounded-lg">
-              <div className="flex items-center space-x-2 border-b-1 border-x-0 border-t-0 pb-3 border border-gray-200 hover:bg-gray-100">
+              <div className="flex items-center space-x-2 border-b-1 border-x-0 border-t-0 pb-3 border border-gray-200">
                 <div className="p-2 rounded-lg shadow-md bg-white">
                   <MdPhoneAndroid className="text-[#E94189] text-2xl" />
                 </div>
@@ -149,7 +149,7 @@ export default function BasicInfo() {
                   </a>
                 </div>
               </div>
-              <div className="flex items-center space-x-2 border-b-1 border-x-0 border-t-0 pb-3 border border-gray-200 hover:bg-gray-100">
+              <div className="flex items-center space-x-2 border-b-1 border-x-0 border-t-0 pb-3 border border-gray-200">
                 <div className="p-2 rounded-lg shadow-md bg-white">
                   <MdOutlineAttachEmail className="text-[#6AB5CB] text-2xl" />
                 </div>
@@ -169,7 +169,7 @@ export default function BasicInfo() {
                   </a>
                 </div>
               </div>
-              <div className="flex items-center space-x-2 border-b-1 border-x-0 border-t-0 pb-3 border border-gray-200 hover:bg-gray-100">
+              <div className="flex items-center space-x-2 border-b-1 border-x-0 border-t-0 pb-3 border border-gray-200">
                 <div className="p-2 rounded-lg shadow-md bg-white">
                   <FaMapMarkerAlt className="text-[#FD7590] text-2xl" />
                 </div>
@@ -188,12 +188,6 @@ export default function BasicInfo() {
                 </div>
               </div>
             </div>
-
-            {/* <div className="flex justify-center cursor-not-allowed disabled">
-              <button className="mt-6 font-medium cursor-not-allowed disabled text-lg leading-[27px] bg-primary rounded-lg text-white px-[30px] py-[14px] flex justify-center items-center gap-x-2 transition duration-300 ease-in-out transform hover:bg-primary-dark hover:scale-105 hover:shadow-lg">
-                <FaDownload /> Download CV
-              </button>
-            </div> */}
           </div>
         </div>
       </div>
